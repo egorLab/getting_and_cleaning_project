@@ -51,6 +51,8 @@ y_data_set[, 1] <- activities[y_data_set[, 1], 2] # changing descriptions in y_d
 
 names(y_data_set) <- "Activity"
 
+final_data_set <- cbind(x_data_set, y_data_set, subject_data_set)
+
 
 
 # Fourth step
